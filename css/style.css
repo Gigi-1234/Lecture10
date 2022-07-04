@@ -1,0 +1,28 @@
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-ul {
+    display: flex;
+}
+
+.nav-ul > li:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+.burgerbar {
+    font-size: 30px;
+    color: gray;
+}
+
